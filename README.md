@@ -1,29 +1,35 @@
-# Text Preprocessing Application
+### Preprocessing Application
 
 A modern web application for natural language processing and text preprocessing with a React frontend and FastAPI backend.
 
-![Application Screenshot](https://via.placeholder.com/800x450)
-
 ## Features
 
-- **Text Tokenization**: Split text into individual tokens
-- **Stemming & Lemmatization**: Compare different word normalization techniques
-- **Part-of-Speech Tagging**: Identify grammatical parts of speech
-- **Named Entity Recognition**: Extract named entities from text
-- **Interactive Comparison**: View real examples showing the differences between stemming and lemmatization
+- **Text Tokenization**: Split text into individual tokens  
+  <img src="https://github.com/user-attachments/assets/a1a0f60c-f21d-4078-942b-0ebc97011ff8" width="500"/>
+
+- **Stemming & Lemmatization**: Compare different word normalization techniques  
+  <img src="https://github.com/user-attachments/assets/358a6519-9741-408a-b7bb-a233ef5972d3" width="500"/>
+
+- **Part-of-Speech Tagging**: Identify grammatical parts of speech  
+  <img src="https://github.com/user-attachments/assets/56a9d7e3-fbde-42fa-886a-359c965c7692" width="500"/>
+
+- **Named Entity Recognition**: Extract named entities from text  
+  <img src="https://github.com/user-attachments/assets/c2f5f549-c3fe-4655-98bb-8fb8378e9cfa" width="500"/>
+
+- **Interactive Comparison**: View real examples showing the differences between stemming and lemmatization  
+  <img src="https://github.com/user-attachments/assets/1fe16cf8-8ae6-4e5a-ac03-44bd561d42f1" width="500"/>
 
 ## Tech Stack
 
 ### Frontend
-- React.js
+- Next.js
 - Tailwind CSS
-- Modern ES6+ JavaScript
 
 ### Backend
 - FastAPI
 - NLTK (Natural Language Toolkit)
 - spaCy
-- Python 3.8+
+- Python 3.10
 
 ## Getting Started
 
@@ -76,7 +82,7 @@ The backend will be running at http://localhost:8000.
 
 1. Navigate to the frontend directory
    ```bash
-   cd ../frontend
+   cd ../nlp
    ```
 
 2. Install dependencies
@@ -86,7 +92,7 @@ The backend will be running at http://localhost:8000.
 
 3. Start the development server
    ```bash
-   npm run dev
+   npx next dev
    ```
 
 The frontend will be running at http://localhost:3000.
@@ -126,10 +132,6 @@ NER is the process of identifying and categorizing named entities in text into p
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
