@@ -1,6 +1,6 @@
 ### Preprocessing Application
 
-A modern web application for natural language processing and text preprocessing with a React frontend and FastAPI backend.
+A modern web application for natural language processing and text preprocessing with a NextJS frontend and FastAPI backend.
 
 ## Features
 
